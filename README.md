@@ -40,8 +40,8 @@ With this logic we can use an iterative approach to solve for Kl (Klinkenberg pe
 
 ```python
     # Given data
-    K_air_mD = 46.6  # Measured permeability to air in mD
-    p_mean_psi = 2.152  # Mean pressure in psi
+    K_air_mD = 11.97  # Measured permeability to air in mD
+    p_mean_psi = 18.0  # Mean pressure in psi
 
     # Function to solve for Kl using Newton-Raphson method
     def calculate_Klinkenberg(K_air_mD, p_mean_psi):
