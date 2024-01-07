@@ -99,6 +99,8 @@ In the provided Python code, the derivative function is defined as `df(Kl_guess)
 
 This code uses the numbers supplied from Jones in RP-40 applying equation 31 where the Klinkenberg Permeability was 10.62mD where our estimate was 10.61mD. 
 
+---
+---
 We have added two additional methods to our GitHub python code to calculate either Klinkenberg Permeability or Permeability to air using the techniques discussed in API RP-40. Our Newton-Raphson method works well, but the most rigorous approach to these calculations is with equation 31 in RP-40. 
 
 In addition, the use of delta_Pmax from equation A-6 is suggested as another method in the appendix; and once detla_Pmax is determined, then the permeability to air can be calculated using equation A-8.
