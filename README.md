@@ -101,8 +101,12 @@ This code uses the numbers supplied from Jones in RP-40 applying equation 31 whe
 
 ---
 ---
-We have added two additional methods to our GitHub python code to calculate either Klinkenberg Permeability or Permeability to air using the techniques discussed in API RP-40. Our Newton-Raphson method works well, but the most rigorous approach to these calculations is with equation 31 in RP-40. 
+We have added two additional methods to our GitHub python code to calculate either Klinkenberg Permeability or Permeability to air using the techniques discussed in API RP-40. Our Newton-Raphson method works well, but the most rigorous approach to these calculations is with equation 31 in RP-40.  
 
 In addition, the use of delta_Pmax from equation A-6 is suggested as another method in the appendix; and once detla_Pmax is determined, then the permeability to air can be calculated using equation A-8.
 
 ![image.png](RP40_Rigouous_deltaPmax.png)
+
+The value for beta in this equation is crucial; however, beta is huge. 
+
+![image.png](beta_kinf_correlation.png)
